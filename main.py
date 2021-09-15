@@ -14,4 +14,5 @@ def all(s):
 
    return perm_list
 
-print(all(arr))
+res = all(arr)
+print([''.join(x) for x in res])
